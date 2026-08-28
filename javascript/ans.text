@@ -1,0 +1,140 @@
+What is a variable in JavaScript?
+variable is container used to store data
+What are the three keywords used to create variables?
+var let const
+Write the syntax to create a variable using var.
+var a
+Write the syntax to create a variable using let.
+let b
+Write the syntax to create a variable using const.
+const c
+What is declaration?
+It is to declare the variable by using datatype 
+What is initialization?
+It is to assign data to variable
+What is reassignment?
+It is to change the before data from the existing variable
+What is redeclaration?
+declaring the same variable 
+Which keyword allows redeclaration?
+var
+Which keyword allows reassignment?
+var let
+Which keyword requires initialization when declared?
+const
+Identify the declaration and initialization:
+let age = 25;
+decleration let age
+initialization age =25
+What is the value of a?
+var a = 100;
+console.log(a);
+100
+Change the value of this variable to 200:
+let number = 100;
+var
+What will be the output?
+var a = 10;
+console.log(a);
+What will be the output?  10
+var a = 10;
+a = 20;
+console.log(a); 20
+var a = 10;
+var a = 30;
+console.log(a); 30
+
+Write a var variable named name with the value "John".
+var name = "John"
+
+Create a var variable named price with the value 500.
+var a =500
+Reassign price from 500 to 1000. a=1000
+
+What will be the output? 
+var x = 50;
+x = 100;
+console.log(x); 100
+
+Can a var variable be reassigned? yes
+Can a var variable be redeclared? yes
+Write an example of var redeclaration.
+var a = 500
+var a=1000
+
+let
+Create a let variable named age with the value 25. let age =25
+
+What will be the output?
+let age = 20;
+age = 30;
+console.log(age); 30
+
+Can a let variable be reassigned? yes
+Can a let variable be redeclared? no
+Find the error:
+let name = "John";
+let name = "David"; redeclaration
+
+Create a let variable called city and assign "Chennai".
+Change the value of city to "Salem".
+let city="Chennai"
+city="Salem"
+
+What will be the output?
+let x = 10;
+x = 50;
+console.log(x); 50
+
+Write a let variable called salary with the value 25000.
+Reassign salary to 30000. 
+let salary =25000
+salary = 30000
+
+const
+Create a const variable called pi with the value 3.14.
+const pi =3.14
+
+Can a const variable be reassigned? no
+Can a const variable be redeclared? no
+What is wrong with this code?
+const age;
+age = 25;  data should be assigned while declaring
+
+What happens here?
+const price = 500;
+price = 1000;  error
+
+Create a const variable called country with the value "India".
+const country ="India"
+
+What will be the output?
+const x = 100;
+console.log(x); 100
+
+Which keyword should you use if the value should not be reassigned? const
+What is the difference between let and const? 
+in let the data can be reassigned which is not possible in const
+
+What is the difference between var and const?
+value can be reassigned and redeclared in var which is not possible in const
+the data should be assigned when declared in the const
+
+Printing & Console
+Write JavaScript code to print Hello World using console.log().
+console.log("Hello world")
+
+Write JavaScript code to print the number 500 using console.log().
+console.log(500)
+
+What is the purpose of console.warn()?
+to show warn symbol in the output of the console
+What is the purpose of console.error()?
+to show error in the output console 
+
+What is the purpose of each?
+alert() it is an inbuilt method to show the alert sign to the user
+prompt() it is an inbuilt method it shows a message can be accepted from the user side
+confirm() it is an inbuilt method it shows a pop up to agreement from the user
+document.writeln() it is an inbuilt method to show the content on the user screen
+console.log() it is an printing statement to check the output
