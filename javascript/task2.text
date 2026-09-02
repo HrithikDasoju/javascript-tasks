@@ -1,0 +1,207 @@
+JavaScript Tasks
+🟢 Task 1 — var, let, const
+Create three variables:
+var → student name
+let → student age
+const → college name
+Requirements:
+Print all three values.
+Change the var value.
+Change the let value.
+Try changing the const value and observe the error.
+Try redeclaring the var variable.
+Try redeclaring the let variable and observe the error.
+
+
+🟢 Task 2 — User Information
+Get the following information from the user using prompt():
+Name
+Age
+City
+Print the result in the console.
+Expected:
+Name: Naveen
+Age: 22
+City: Trichy
+🟢 Task 3 — Welcome Message
+Get the user's name using prompt().
+Display:
+Welcome Naveen!
+Use alert().
+🟢 Task 4 — Age Calculator
+Ask the user for their birth year.
+Calculate their approximate age using:
+Current Year - Birth Year
+Print the age in the console.
+Example:
+Birth Year: 2000
+Age: 26
+🔵 Data Type Tasks
+Task 5 — Identify Data Types
+Create variables containing:
+"Hello"
+100
+25.5
+true
+false
+undefined
+null
+Use typeof and print each data type.
+Task 6 — Student Data
+Create an object:
+name
+age
+city
+qualification
+isStudent
+Print:
+Complete object
+Name
+Age
+Qualification
+isStudent
+Task 7 — Fruit Array
+Create an array containing 6 fruits.
+Apple
+Mango
+Orange
+Banana
+Grapes
+Papaya
+Print:
+First frui
+Second fruit
+Last fruit
+Total number of fruits
+Hint:
+array.length
+array.length - 1
+🟡 Arithmetic Operator Tasks
+Task 8 — Basic Calculator
+Create two numbers:
+let a = 20;
+let b = 5;
+Perform:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Exponentiation
+Print every result separately.
+Task 9 — Shopping Bill
+Create:
+Shirt = 999
+Pant = 1499
+Shoes = 1999
+Calculate the total price.
+Expected:
+Total = 4497
+Task 10 — Simple Marks Calculation
+Create marks for 3 subjects:
+Tamil = 80
+English = 75
+Maths = 90
+Calculate:
+Total marks
+Average marks
+🟠 Increment & Decrement Tasks
+Task 11 — Post Increment
+Predict the output before running the code:
+let a = 10;
+
+let b = a++;
+
+console.log(a); // 11
+console.log(b); // 10
+Write your expected output first, then run it.
+Task 12 — Pre Increment
+Predict the output:
+let a = 10;
+
+let b = ++a;
+
+console.log(a); // 11
+console.log(b); //11
+Task 13 — Post Decrement
+Predict:
+let a = 20;
+
+let b = a--;
+
+console.log(a); // 19
+console.log(b); // 20
+Task 14 — Pre Decrement
+Predict:
+let a = 20;
+
+let b = --a;
+
+console.log(a); // 19
+console.log(b); // 19
+🔴 Challenge Tasks
+Task 15 — Find the Final Values
+Without running the code, find the output:
+let a = 5;
+
+let b = a++;
+
+let c = ++a;
+
+let d = b--;
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+Students should write the answer first and then verify it.
+Task 16 — Assignment Operators
+Given:
+let num = 10;
+Perform each operation separately:
++=
+-=
+*=
+/=
+%=
+**=
+Example:
+num += 5;
+console.log(num);
+🏆 Task 17 — Mini Student Profile
+Create a student profile using:
+Variables
+Name
+Age
+City
+College
+Array
+Store 5 favorite subjects.
+Object
+Create an employee/student object containing:
+name
+age
+city
+subjects
+isStudent
+Then print:
+Student name
+Student age
+City
+First subject
+Last subject
+Total subjects
+Complete object
+🔥 Final Challenge — User + Calculator
+
+Get two numbers from the user using prompt().
+Perform:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Power
+Then display all results using console.log().
+Restriction: Use only the concepts you have taught so far:
+var, let, const, prompt(), console.log(), data types, arrays, objects, arithmetic operators, increment/decrement, and assignment operators.
