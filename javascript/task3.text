@@ -1,0 +1,322 @@
+Task 1 — Variables
+Create variables using var, let, and const.
+Name
+Age
+City
+College
+Requirements:
+Print all values.
+Change the var value.
+Change the let value.
+Try changing the const value.
+Try redeclaring each variable and observe what happens.
+Task 2 — Printing Statements
+Use:
+console.log()
+alert()
+confirm()
+prompt()
+document.writeln()
+Create one example for each.
+Task 3 — User Details
+Get from the user:
+Name
+Age
+City
+Qualification
+Print the details in the console.
+🟡 Data Type Tasks
+Task 4 — Find Data Types
+Create variables containing:
+"JavaScript"
+100
+99.5
+true
+false
+undefined
+null
+Print their values and use typeof to identify their data types.
+Task 5 — Student Array
+Create an array containing:
+Student names
+Example:
+let students = ["Arun", "Priya", !];
+Print:
+First student
+Second student
+Last student
+Total students
+Use only:
+array[index]
+array.length
+Task 6 — Employee Object
+Create an employee object containing:
+name
+age
+role
+skills
+isWorking
+qualification
+skills and qualification should be arrays.
+Print:
+Employee name
+Age
+Role
+First skill
+Last qualification
+Working status
+This follows the same array-inside-object structure from your notes.
+🔵 Arithmetic Operator Tasks
+Task 7 — Calculator
+Create:
+let a = 20;
+let b = 5;
+Calculate:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Exponentiation
+Task 8 — Shopping Bill
+Create:
+Shirt = 999
+Pant = 1499
+Shoes = 1999
+Bag = 799
+Calculate:
+Total price
+Use arithmetic operators only.
+Task 9 — Increment & Decrement
+Find the output without running the code first.
+A
+let a = 10;
+
+let b = a++;
+
+console.log(a);
+console.log(b);
+B
+let a = 10;
+
+let b = ++a;
+
+console.log(a);
+console.log(b);
+C
+let a = 10;
+
+let b = a--;
+
+console.log(a);
+console.log(b);
+D
+let a = 10;
+
+let b = --a;
+
+console.log(a);
+console.log(b);
+🟣 Assignment Operator Tasks
+Task 10
+Start with:
+let num = 10;
+Perform separately:
+num += 5
+num -= 3
+num *= 2
+num /= 4
+num %= 3
+num **= 2
+Print the result after each operation.
+🔴 Comparison Operator Tasks
+Your notes cover <, >, <=, >=, ==, !=, ===, and !==.
+Task 11 — Find Output
+Predict the result:
+console.log(10 > 5);
+console.log(10 < 5);
+console.log(10 >= 10);
+console.log(10 <= 9);
+
+console.log(5 == "5");
+console.log(5 === "5");
+
+console.log(10 != "10");
+console.log(10 !== "10");
+🟠 Logical Operator Tasks
+Task 12 — AND
+Find the output:
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+Task 13 — OR
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+Task 14 — NOT
+console.log(!true);
+console.log(!false);
+console.log(!(5 > 10));
+console.log(!(10 > 5));
+🔥 Task 15 — Combination
+Find the output without executing:
+console.log(5 == "5" && !(5 === 5) || 6 > 7);
+
+console.log(10 > 5 && 8 < 12 || 4 === "4");
+
+console.log(7 === 7 && 10 != "10" || 5 >= 5);
+
+console.log(15 < 10 || 20 > 15 && 5 == "5");
+These follow the same comparison + logical style in your code.
+🟤 Ternary Operator Tasks
+Task 16 — Voting
+Create:
+let age = 20;
+Use the ternary operator:
+age >= 18 → "Eligible to vote"
+age < 18  → "Not eligible"
+Task 17 — Password
+Create:
+let password = true;
+Use ternary:
+true  → "Login successful"
+false → "Wrong password"
+🟢 Concatenation & Template String
+Task 18 — User Introduction
+Create:
+let name = "Naveen";
+let age = 25;
+let city = "Trichy";
+Print:
+My name is Naveen. I am 25 years old. I live in Trichy.
+Do it two ways:
+Using +
+Using template literals `${}`
+Your notes cover both approaches.
+🔵 Type Casting Tasks
+Task 19 — String Conversion
+Use String() to convert:
+100
+true
+undefined
+null
+[1, 2]
+Print the result and its typeof.
+Task 20 — Number Conversion
+Predict the output:
+console.log(Number());
+console.log(Number(""));
+console.log(Number("123"));
+console.log(Number("a1"));
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number(undefined));
+console.log(Number(null));
+Your notes specifically cover these conversions.
+Task 21 — Boolean Conversion
+Predict:
+console.log(Boolean());
+console.log(Boolean(""));
+console.log(Boolean("hello"));
+console.log(Boolean(123));
+console.log(Boolean(true));
+console.log(Boolean(false));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean([]));
+console.log(Boolean({}));
+🔴 Flow Control Tasks
+Task 22 — Voting Eligibility
+Get age using prompt().
+18 or above → "You can vote"
+Below 18   → "You can't vote"
+Use:
+if
+else
+Task 23 — Positive or Negative
+Get a number from the user.
+Check:
+Positive
+Negative
+Zero
+Use if / else if / else.
+Task 24 — Grade System
+Get marks from the user.
+Create:
+90–100 → A Grade
+80–89  → B Grade
+70–79  → C Grade
+60–69  → D Grade
+Below 60 → Fail
+Use if / else if / else.
+🟣 Nested If Task
+Task 25 — Job Eligibility
+Get:
+Age
+Height
+Weight
+Rules:
+Age >= 18
+Height >= 160
+Weight >= 60
+If all conditions are satisfied:
+"Congratulations! You are selected"
+Otherwise display the appropriate reason.
+This is based directly on the nested-if structure in your code.
+🟡 Switch Tasks
+Task 26 — Traffic Light
+Get a traffic light color:
+red
+yellow
+green
+Use switch.
+red    → Stop
+yellow → Ready
+green  → Go
+Task 27 — Day
+Create:
+let day = 1;
+Use switch:
+1 → Monday
+2 → Tuesday
+3 → Wednesday
+4 → Thursday
+5 → Friday
+6 → Saturday
+7 → Sunday
+Add:
+default → Invalid day
+🏆 FINAL MINI PROJECT
+Task 28 — Student Result System
+Create a small Student Result System using everything you've learned.
+Step 1 — Get user details
+Name
+Age
+City
+Step 2 — Get marks
+Tamil
+English
+Maths
+Step 3 — Calculate
+Total
+Average
+Step 4 — Check result
+Use if / else if / else:
+90+ → A
+80+ → B
+70+ → C
+60+ → D
+Below 60 → Fail
+Step 5 — Check voting
+Age >= 18
+Step 6 — Display
+Use a template string:
+Name: Naveen
+Age: 22
+City: Trichy
+Total: 250
+Average: 83.33
+Grade: B
+Voting: Eligible
